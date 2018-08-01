@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_6"
+        android:layout_marginLeft="@dimen/dp_27"
+        android:layout_marginTop="@dimen/dp_17"
+        android:text="μg/m3"
+        android:textColor="@color/color_666666"
+        android:textSize="@dimen/sp_9"
+        />
+
+    <com.wildma.wildmachart.RangeBarChartView
+        android:id="@+id/rangebarchartview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!--<TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_26"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:text="08月01"
+        android:textColor="@color/color_666666"
+        android:textSize="@dimen/sp_9"
+        />-->
+</LinearLayout>
