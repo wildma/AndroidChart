@@ -1,4 +1,4 @@
-# WildmaChart
+# AndroidChart
 Android图表之范围柱状图和雷达图
 
 ### 功能特点
